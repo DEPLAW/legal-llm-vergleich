@@ -1,0 +1,2133 @@
+[
+  {
+    "id": "fahrradfahrer-zebrastreifen-kreisverkehr",
+    "title": "Fahrradfahrer Zebrastreifen Kreisverkehr Teilschuld",
+    "legalAreaSlug": "verkehrsrecht",
+    "taskInstructions": "Ich bin 01.09.2026 in Düsseldorf in einen Verkehrsunfall mit meinem geleasten Audi A4 (Baujahr 2019) verwickelt worden. Ich wollte an einem Kreisverkehr anfahren, als ein Fahrradfahrer über den Zebrastreifen fuhr und gegen mein Auto knallte. Die gegnerische Versicherung des Radfahrers, die HUK, meint, dass ich eine Teilschuld  von 50% habe, weil dieser ganz langsam fuhr und ich am Zebrastreifen hätte weiter warten müssen.\n\nDer Schaden lautet wie folgt: \n\n19.200 € Wiederbeschaffungswert\n10.000 € Restwert\n13.000 € Reparaturkosten netto \n900 € merkantiler Minderwert \n\nFür das Gutachten habe ich 1.104,30 € zahlen müssen. \n\nWeil sich die gegnerische Versicherung quer stellt, habe ich jetzt meine Kaskoversicherung in Anspruch nehmen müssen. Diese hat folgende Beträge gezahlt:\n11.000 € Reparaturkosten brutto \n500 € Selbstbeteiligung \n230 € Gutachten\n\nDie gegnerische Versicherung hat mir nur 250 € Selbstbeteiligung und 552,15 € Gutachterkosten gezahlt.\n\nWährend der vier Tage Reparatur hatte ich keinen Mietwagen. Die Kaskoversicherung hat mich jetzt hochgestuft \nIch will jetzt die Versicherung verklagen. Erstelle mir eine perfekte Klage, die ich direkt einreichen kann. \n\nSag mir auch, mit wieviel Gerichtskosten und mit wieviel Kosten ich rechnen muss, wenn ich verliere. \n",
+    "referenceSetTitle": "VUP - Kaskoklage ",
+    "checklistPoints": [
+      {
+        "id": "c1",
+        "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden."
+      },
+      {
+        "id": "c2",
+        "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden."
+      },
+      {
+        "id": "c3",
+        "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung"
+      },
+      {
+        "id": "c4",
+        "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen"
+      },
+      {
+        "id": "c5",
+        "label": "Quotenvorrecht erkannt und in Klage dargestellt"
+      },
+      {
+        "id": "c6",
+        "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht"
+      },
+      {
+        "id": "c7",
+        "label": "Richtige Addition von Gutachterzahlungen"
+      },
+      {
+        "id": "c8",
+        "label": "Streitwert wird richtig summiert"
+      },
+      {
+        "id": "c9",
+        "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels"
+      },
+      {
+        "id": "c10",
+        "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet."
+      },
+      {
+        "id": "c11",
+        "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)"
+      },
+      {
+        "id": "c12",
+        "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position"
+      },
+      {
+        "id": "c13",
+        "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert"
+      }
+    ],
+    "judgeSummary": "Alle fünf Outputs erkennen den zentralen Fallstrick der fehlenden Passivlegitimation der HUK (kein Direktanspruch nach § 115 Abs. 1 S. 1 Nr. 1 VVG bei einem Radfahrer) und thematisieren die Leasing-Problematik bei der Aktivlegitimation. Der entscheidende Unterschied liegt in der Behandlung des Quotenvorrechts nach § 86 Abs. 1 S. 2 VVG: Nur GPT-6 Astra rechnet es so, wie es die Musterlösung vorgibt (voller Eigenschaden von 2.274,30 €, gedeckelt auf die Gesamthaftungssumme, offen 1.472,15 €). Claude Opus 5.0 und Claude Fable 5.1 wenden das Vorrecht zwar an, deckeln aber je Einzelposition (Sachverständigenkosten), Claude Fable 5.1 qualifiziert den merkantilen Minderwert zusätzlich fehlerhaft als nicht quotenbevorrechtigt. Kimi K3 gelangt bei der Bezifferung zufällig zum richtigen Kernbetrag, begründet dies aber ausschließlich über eine 100-%-Haftung und stellt das Quotenvorrecht in der Klage nicht dar; GPT-5.6 Luna übersieht das Quotenvorrecht vollständig, übernimmt die (falsche) positionsweise Quotelung der Versicherung und liefert weder einen bezifferten Antrag noch eine belastbare Kostenberechnung.",
+    "models": [
+      {
+        "slug": "claude-fable-5-1",
+        "label": "Claude Fable 5.1",
+        "modelName": "claude-fable-5-1",
+        "score": 76,
+        "aiScore": 76,
+        "humanScore": null,
+        "rationale": "Der Output ist prozessual besonders sorgfältig ausgearbeitet und erfüllt Passivlegitimation, Feststellungsantrag, Aktivlegitimation, Streitwert- und Kostenberechnung vollständig; das Quotenvorrecht wird erkannt und in der Klage prominent vorgetragen. Fachlich fehlerhaft ist jedoch die Anwendung: Das Vorrecht wird je Einzelposition gedeckelt und der merkantile Minderwert als nicht kongruent nur quotal angesetzt, sodass der bei 50 % Haftung geschuldete Betrag mit 842,50 € deutlich zu niedrig ausfällt.",
+        "inputTokens": 5556,
+        "outputTokens": 32452,
+        "latencyMs": 421917,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Klare Warnung, dass eine Klage gegen die HUK abzuweisen wäre 'mit voller Kostenlast'; ausdrückliche Empfehlung eines letzten Aufforderungsschreibens mit 14-Tage-Frist zur Verzugsbegründung sowie Wirtschaftlichkeitsabwägung (Kostenrisiko bis ca. 3.800 € bei Streitwert ca. 2.500 €)."
+          },
+          {
+            "id": "c2",
+            "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Einleitung und 2.1: kein Direktanspruch nach § 115 Abs. 1 S. 1 Nr. 1 VVG, HUK nur Regulierungsbevollmächtigte (§ 100 VVG/AHB), Beklagter ist der Radfahrer; Klageentwurf entsprechend."
+          },
+          {
+            "id": "c3",
+            "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Klageantrag Ziff. 2 als Feststellungsantrag mit Begründung des Feststellungsinteresses (§ 256 Abs. 1 ZPO) und Erläuterung, warum der Schaden noch nicht bezifferbar ist."
+          },
+          {
+            "id": "c4",
+            "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt 2.4: Leasingnehmer ist nicht Eigentümer; merkantiler Minderwert nur aufgrund Abtretung/Ermächtigung (gewillkürte Prozessstandschaft) geltend zu machen, sonst Teilabweisung mit Kostenfolge; im Klageentwurf mit Anlagen K 1/K 2 umgesetzt."
+          },
+          {
+            "id": "c5",
+            "label": "Quotenvorrecht erkannt und in Klage dargestellt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt 2.3 mit § 86 Abs. 1 S. 1 und S. 2 VVG und prominente Darstellung in der Klage (II.2.a: auch bei 50 % schuldet der Beklagte 5.750 €, daraus vorrangig die volle Selbstbeteiligung)."
+          },
+          {
+            "id": "c6",
+            "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nicht kongruente Positionen (Nutzungsausfall 130 €, Auslagenpauschale 12,50 €, Rückstufungsschaden) werden in der 50-%-Spalte quotal ausgewiesen."
+          },
+          {
+            "id": "c7",
+            "label": "Richtige Addition von Gutachterzahlungen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.104,30 € − 230 € (Kasko, übergegangen) − 552,15 € (HUK) = 322,15 € korrekt; ausdrücklicher Hinweis, dass die 230 € nach § 86 Abs. 1 S. 1 VVG nicht mehr eigen geltend gemacht werden können."
+          },
+          {
+            "id": "c8",
+            "label": "Streitwert wird richtig summiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Zahlungsantrag 1.757,15 € (mit dem Kernbetrag 1.472,15 € wie Musterlösung zzgl. Nutzungsausfall und Pauschale) plus geschätzter Feststellungswert (ca. 750 €, Feststellungsabschlag 20 %) = ca. 2.500 €, Gebührenstufe bis 3.000 €."
+          },
+          {
+            "id": "c9",
+            "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "3,0 Gebühren KV Nr. 1210 GKG bei Streitwert bis 3.000 € (ca. 380 €), Vorschuss § 12 Abs. 1 GKG, Ermäßigung KV 1211, mit Hinweis auf KostRÄG 2025."
+          },
+          {
+            "id": "c10",
+            "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1,3 Verfahrensgebühr (VV 3100) + 1,2 Terminsgebühr (VV 3104) + 20 € Pauschale (VV 7002) + 19 % USt (VV 7008) ≈ 720 € je Seite, Szenarien für Unterliegen mit und ohne eigenen Anwalt."
+          },
+          {
+            "id": "c11",
+            "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Das Vorrecht wird nur positionsweise angewendet (Selbstbeteiligung voll aus 50 % der Reparaturkosten, Gutachterkosten bei 50 % 'bereits gezahlt, 0 € offen'); die Gesamthaftungssumme über den ganzen Schadensfall wird nicht gebildet, der Minderwert wird sogar als nicht kongruent nur quotal angesetzt."
+          },
+          {
+            "id": "c12",
+            "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Der Eigenschaden von 2.274,30 € wird nicht als Ganzes der Gesamthaftungssumme gegenübergestellt; Ergebnis bei 50 % nur 842,50 € statt 1.472,15 € zzgl. hälftigem Nutzungsausfall."
+          },
+          {
+            "id": "c13",
+            "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nutzungsausfall statt Mietwagen mit Wahlrecht, Sanden/Danner/Küppersbusch, Altersherabstufung, 4 × 65 € = 260 €, Verifizierungshinweis."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Merkantiler Minderwert als nicht kongruente Position",
+            "description": "Der Minderwert wird als 'nicht kongruent' eingeordnet und bei 50 % nur mit 450 € angesetzt. Nach der Musterlösung (und wie GPT-6 Astra und Claude Opus 5.0 zutreffend rechnen) ist der von der Kasko nicht gedeckte Minderwert quotenbevorrechtigt und in voller Höhe zu ersetzen.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Positionsweise Anwendung des Quotenvorrechts",
+            "description": "Das Vorrecht wird pro Position gedeckelt (Sachverständigenkosten bei 50 % angeblich vollständig erfüllt), statt den gesamten Eigenschaden gegen die eine Gesamthaftungssumme zu stellen; die 50-%-Bezifferung (842,50 €) liegt dadurch weit unter dem zutreffenden Betrag.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Prozessuale Ausarbeitung",
+            "description": "Sehr sorgfältiger Klageentwurf mit § 10 StVO-Anscheinsbeweis, ausdrücklichem Bestreiten der 'langsamen Fahrt' (§ 138 Abs. 3 ZPO), § 828 BGB-Prüfung und vollständigem Anlagenverzeichnis – über die Musterlösung hinausgehend, fachlich stimmig.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Redaktioneller Fehler im Entwurf",
+            "description": "Im Klageentwurf steht 'für die vierwöchige – richtig: viertägige – Reparaturdauer'; der Fehler wird nachträglich erläutert, bleibt aber im 'direkt einreichbaren' Text stehen.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "claude-opus-5",
+        "label": "Claude Opus 5.0",
+        "modelName": "claude-opus-5",
+        "score": 60,
+        "aiScore": 78,
+        "humanScore": 60,
+        "rationale": "Der Output erkennt das Quotenvorrecht, stellt es in der Klage vor und behandelt Passivlegitimation, Aktivlegitimation beim Leasing, Feststellungsantrag (alternativ), Nutzungsausfall sowie Gerichts- und Anwaltskosten methodisch korrekt. Entscheidender fachlicher Mangel ist die positionsweise Deckelung des Vorrechts bei den Sachverständigenkosten, wodurch der bei 50 % Haftung geschuldete Betrag zu niedrig ermittelt wird; zudem wird der auf die Kasko übergegangene Gutachtenanteil von 230 € ohne vorliegende Rückabtretung eingeklagt.",
+        "inputTokens": 5554,
+        "outputTokens": 38590,
+        "latencyMs": 500270,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ausdrückliche Empfehlung, nicht sofort zu klagen, sondern zunächst mit dem Quotenvorrecht außergerichtlich zu argumentieren (Frist 14 Tage); zugleich Hinweis, dass eine Klage gegen die HUK mit vollem Kostenrisiko abgewiesen würde, sowie ausführliche Risikoabwägung (Verhältnis Streitwert/Kostenrisiko)."
+          },
+          {
+            "id": "c2",
+            "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 115 Abs. 1 S. 1 Nr. 1 VVG setzt Pflichtversicherung voraus; Klage gegen die HUK wäre abzuweisen, HUK nur Regulierungsbeauftragte; Ausnahmen (S-Pedelec, deklaratorisches Anerkenntnis, § 115 Abs. 1 Nr. 2, 3 VVG) sauber benannt."
+          },
+          {
+            "id": "c3",
+            "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Antrag Ziff. 2 primär als Zahlungsantrag, ausdrücklich alternativ als ausformulierter Feststellungsantrag zum Rückstufungsschaden, mit Hinweis auf Streitwerterhöhung; § 287 ZPO für die Schätzung."
+          },
+          {
+            "id": "c4",
+            "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt B.II: Substanzschaden und merkantiler Minderwert stehen dem Leasinggeber zu, Geltendmachung nur aus abgetretenem Recht oder Prozessstandschaft; 'ohne sie ist die 900-€-Position verloren'; im Klageentwurf mit Anlage K 1 umgesetzt."
+          },
+          {
+            "id": "c5",
+            "label": "Quotenvorrecht erkannt und in Klage dargestellt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt B.IV mit § 86 Abs. 1 S. 1 und S. 2 VVG, Kongruenzbetrachtung und ausdrücklicher Vortrag im Klageentwurf (Abschnitt III.5 als vorsorgliche Hilfsbegründung)."
+          },
+          {
+            "id": "c6",
+            "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Block 3 'inkongruente Positionen (streng nach Quote)': Nutzungsausfall, Auslagenpauschale, Rückstufungsschaden mit Werten für 100/75/50 %."
+          },
+          {
+            "id": "c7",
+            "label": "Richtige Addition von Gutachterzahlungen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Eigenanteil 1.104,30 € − 230 € = 874,30 € und offener Betrag bei 100 % = 322,15 € korrekt berechnet."
+          },
+          {
+            "id": "c8",
+            "label": "Streitwert wird richtig summiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Streitwert 1.963,15 € nachvollziehbar summiert, zusätzlich Szenarien mit Rückstufungsschaden (2.800 €) und höherer Reparaturrechnung (5.500 €); allerdings enthält die Summe 552,15 € Gutachterkosten einschließlich des auf die Kasko übergegangenen Anteils von 230 €."
+          },
+          {
+            "id": "c9",
+            "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "3,0 Gebühren Nr. 1210 KV GKG, streitwertgestaffelt (294 €/357 €/546 €), § 12 Abs. 1 GKG, mit Aktualitätsvorbehalt."
+          },
+          {
+            "id": "c10",
+            "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1,3 Verfahrensgebühr + 1,2 Terminsgebühr + 20 € Auslagen + 19 % USt je Seite (517,65 €/684,25 €/1.160,25 €) sowie Gesamtrisiko; zusätzlich Sachverständigenrisiko."
+          },
+          {
+            "id": "c11",
+            "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Das Vorrecht wird blockweise angewendet: Beim Fahrzeugschaden zutreffend (1.400 € aus 6.200 €), bei den Sachverständigenkosten aber auf die Einzelposition gedeckelt ('Vorrecht reicht nur bis 552,15 €, bei 50 % kein Mehranspruch') – genau der von der Musterlösung als falsch bezeichnete Ansatz."
+          },
+          {
+            "id": "c12",
+            "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Der Gesamteigenschaden von 2.274,30 € wird nicht einheitlich der Gesamthaftungssumme gegenübergestellt; Ergebnis bei 50 % nur 1.280,50 € statt 1.472,15 € zzgl. hälftigem Nutzungsausfall."
+          },
+          {
+            "id": "c13",
+            "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nutzungsausfall statt Mietwagen, Wahlrecht, Sanden/Danner/Küppersbusch mit Altersherabstufung, 4 × 59 € = 236 €, Verifizierungshinweis."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Positionsweise Deckelung des Quotenvorrechts",
+            "description": "Die Sachverständigenkosten werden separat quotiert (50 % von 1.104,30 € = 552,15 €), statt den gesamten Eigenschaden gegen die eine Gesamthaftungssumme zu stellen. Dadurch wird der bei 50 % geschuldete Betrag um ca. 322 € zu niedrig angesetzt (GPT-6 Astra und Musterlösung rechnen korrekt).",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Geltendmachung des Kasko-Anteils von 230 €",
+            "description": "Im Ergebnis werden 552,15 € Gutachterkosten eingeklagt, also einschließlich des auf die Kasko übergegangenen Anteils von 230 €, gestützt auf eine noch einzuholende Rückabtretung – ohne diese fehlt insoweit die Aktivlegitimation (Risiko wird immerhin benannt).",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Rückstufungsschaden primär als Zahlungsantrag",
+            "description": "Primär wird ein bezifferter Zahlungsantrag gestellt, der Feststellungsantrag nur alternativ angeboten; die Musterlösung sieht wegen fehlender Bezifferbarkeit den Feststellungsantrag als den zutreffenden Weg an.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Zusätzliche Positionen",
+            "description": "Auslagenpauschale (25 €) und ein § 10 StVO-Argument werden ergänzend eingeführt; das geht über die Musterlösung hinaus, ist aber fachlich vertretbar und praxisgerecht.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-5-6-luna",
+        "label": "GPT-5.6 Luna",
+        "modelName": "gpt-5.6-luna",
+        "score": 32,
+        "aiScore": 32,
+        "humanScore": null,
+        "rationale": "Der Output erkennt zwar Passivlegitimation, Leasingproblematik und Nutzungsausfall, verfehlt aber den Kern des Falles: Das Quotenvorrecht wird gar nicht erkannt, die positionsweise Halbierung der Versicherung wird bestätigt und dem Mandanten wird dadurch ein weitgehend abgegoltener Schaden suggeriert. Zudem fehlen bezifferter Klageantrag, Streitwert, Feststellungsantrag sowie eine belastbare Gerichts- und Anwaltskostenberechnung.",
+        "inputTokens": 2788,
+        "outputTokens": 7199,
+        "latencyMs": 57389,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Empfiehlt, die Klage derzeit nicht einzureichen, fordert vorherige Aufklärung und Aufforderung der Versicherung und nennt die Kostentragung nach § 91 ZPO; der konkrete Aspekt des fehlenden Klageanlasses (§ 93 ZPO) bleibt jedoch unbenannt."
+          },
+          {
+            "id": "c2",
+            "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 115 Abs. 1 S. 1 Nr. 1 VVG zutreffend dargestellt, keine Pflichtversicherung beim Fahrrad, grundsätzlich ist der Radfahrer zu verklagen – allerdings stark relativierend ('nicht ohne Weiteres') und im Klageentwurf wird die HUK als möglicher weiterer Beklagter offengehalten."
+          },
+          {
+            "id": "c3",
+            "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Kein Feststellungsantrag; die Mehrprämie wird als zu bezifferndes Zahlungsposition behandelt ('ein pauschaler Betrag kann nicht eingeklagt werden'), § 256 ZPO wird nicht erwähnt."
+          },
+          {
+            "id": "c4",
+            "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt D.3 und E: Eigentum der Leasinggesellschaft, Klärung, ob der Minderwert dem Leasinggeber zusteht, Risiko der Teilabweisung wegen fehlender Aktivlegitimation."
+          },
+          {
+            "id": "c5",
+            "label": "Quotenvorrecht erkannt und in Klage dargestellt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Das Quotenvorrecht nach § 86 Abs. 1 S. 2 VVG wird an keiner Stelle erwähnt; § 86 VVG wird nur als Forderungsübergang behandelt."
+          },
+          {
+            "id": "c6",
+            "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Es wird nicht zwischen bevorrechtigten und nicht bevorrechtigten Positionen unterschieden; sämtliche Positionen werden pauschal halbiert (u. a. Minderwert 450 €), der Nutzungsausfall wird gar nicht beziffert."
+          },
+          {
+            "id": "c7",
+            "label": "Richtige Addition von Gutachterzahlungen",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Es wird lediglich festgestellt, dass die HUK exakt 50 % gezahlt habe und die 230 € 'zusätzlich anzurechnen' seien; der Eigenanteil (1.104,30 € − 230 € = 874,30 €) bzw. der offene Rest von 322,15 € wird nicht berechnet."
+          },
+          {
+            "id": "c8",
+            "label": "Streitwert wird richtig summiert",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Kein Streitwert ermittelt; stattdessen hypothetische Beispiele von 2.000 € bis 10.000 €, der Klageantrag bleibt betragsmäßig offen."
+          },
+          {
+            "id": "c9",
+            "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Nur grobe Spannen ('ca. 350–450 €' bei 2.000 € Streitwert) ohne Berechnung der 3,0 Gebühren nach KV 1210 GKG; die Werte sind zudem zu hoch angesetzt."
+          },
+          {
+            "id": "c10",
+            "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet.",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Anwaltskosten nur als Sammelspanne ('eigene und gegnerische Anwaltskosten zusammen ca. 1.000–1.300 €'); 1,3/1,2 Gebühren, Auslagenpauschale und Umsatzsteuer werden nicht berechnet."
+          },
+          {
+            "id": "c11",
+            "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Wendet gerade die von der Musterlösung als falsch bezeichnete positionsweise Quotelung an und bestätigt, die Zahlungen der HUK von 250 € und 552,15 € seien bei 50 % Haftung 'vollständig' erfüllt."
+          },
+          {
+            "id": "c12",
+            "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Kommt zum Gegenteil: Es verbleibe 'möglicherweise nur' der halbe Minderwert (450 €) nebst Nutzungsausfall und Mehrprämie; der Eigenschaden von 2.274,30 € und der offene Betrag von 1.472,15 € werden nicht erkannt."
+          },
+          {
+            "id": "c13",
+            "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt D.6: Nutzungsausfallentschädigung statt Mietwagen mit Voraussetzungen und Hinweis auf erforderliche Tabelleneinstufung (ohne Bezifferung)."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Quotenvorrecht vollständig übersehen",
+            "description": "Das Quotenvorrecht nach § 86 Abs. 1 S. 2 VVG – der Kern des Falles – fehlt; die Rechnung des Versicherers (50 % je Einzelposition) wird als zutreffend bestätigt. Dadurch wird dem Mandanten fälschlich mitgeteilt, Selbstbeteiligung und Gutachterkosten seien bereits vollständig ausgeglichen.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Merkantiler Minderwert nur quotal",
+            "description": "Der Minderwert wird nur zu 50 % (450 €) angesetzt, obwohl er als nicht von der Kasko gedeckter, kongruenter Eigenschaden ungekürzt ersatzfähig ist (Musterlösung; ebenso GPT-6 Astra und Claude Opus 5.0).",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Unbezifferter Klageantrag",
+            "description": "Der Klageentwurf enthält durchgängig Platzhalter statt eines bezifferten Zahlungsantrags und lässt die HUK sogar als möglichen weiteren Beklagten offen; ein einreichungsfähiges Ergebnis wird nicht geliefert.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Kostenprognose",
+            "description": "Gerichts- und Anwaltskosten werden nur als grobe, teilweise zu hohe Spannen angegeben, ohne 3,0 GKG-Gebühren und ohne RVG-Gebührenaufbau – deutlich schwächer als bei allen anderen Outputs.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Kein Feststellungsantrag",
+            "description": "Der Rückstufungsschaden wird nur als bezifferbare Zahlungsposition behandelt; der prozessual gebotene Feststellungsantrag (§ 256 ZPO) fehlt.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-6-astra",
+        "label": "GPT-6 Astra",
+        "modelName": "gpt-6-astra",
+        "score": 93,
+        "aiScore": 93,
+        "humanScore": null,
+        "rationale": "GPT-6 Astra trifft Ergebnis und tragende Begründung der Musterlösung punktgenau, insbesondere die korrekte Mechanik des Quotenvorrechts (Eigenschaden 2.274,30 € unter der Gesamthaftungssumme, offen 1.472,15 €) und deren Vortrag in der Klageschrift. Feststellungsantrag, Aktivlegitimation beim Leasing, quotale Behandlung des Nutzungsausfalls, Streitwertbildung einschließlich Feststellungswert sowie Gerichts- und Anwaltskosten sind vollständig und methodisch korrekt. Abzüge nur für kleine Abweichungen bei der Bemessungsgrundlage und den Vollhaftungsansatz im Antrag.",
+        "inputTokens": 2788,
+        "outputTokens": 10377,
+        "latencyMs": 204580,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ausdrücklich: Radfahrer vor Klage selbst zur Zahlung auffordern, Frist 14 Tage, 'vermindert auch das Risiko eines Kostenstreits wegen sofortigen Anerkenntnisses nach § 93 ZPO'; zusätzlich vollständige Kostenrisikodarstellung."
+          },
+          {
+            "id": "c2",
+            "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Einleitung und Abschnitt A: kein Direktanspruch nach § 115 Abs. 1 S. 1 Nr. 1 VVG, keine Gefährdungshaftung nach § 7 StVG, Klage gegen den Radfahrer; Ausnahmen (S-Pedelec, Anerkenntnis, Abtretung) werden benannt."
+          },
+          {
+            "id": "c3",
+            "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Klageantrag Ziff. 2 als Feststellungsantrag zum Rückstufungsschaden, Feststellungsinteresse nach § 256 Abs. 1 ZPO begründet."
+          },
+          {
+            "id": "c4",
+            "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt C: Reparaturkosten und Minderwert betreffen das Eigentum der Leasinggesellschaft; Abtretung § 398 BGB, Ermächtigung, Einziehungsbefugnis; im Klageentwurf eigener Abschnitt 'Berechtigung zur Anspruchsverfolgung'."
+          },
+          {
+            "id": "c5",
+            "label": "Quotenvorrecht erkannt und in Klage dargestellt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt E mit § 86 Abs. 1 S. 1 und S. 2 VVG, Benennung der bevorrechtigten Positionen und ausdrückliche Darstellung im Klageentwurf (Abschnitt VI mit Vorrechtsberechnung)."
+          },
+          {
+            "id": "c6",
+            "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Stellt ausdrücklich fest, dass Nutzungsausfall nicht quotenbevorrechtigt ist, und rechnet ihn quotal vor (100 % = 200 €, 50 % = 100 €); der Rückstufungsschaden wird ebenfalls als quotenabhängig eingeordnet."
+          },
+          {
+            "id": "c7",
+            "label": "Richtige Addition von Gutachterzahlungen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Tabelle: 1.104,30 € − 230 € − 552,15 € = 322,15 €."
+          },
+          {
+            "id": "c8",
+            "label": "Streitwert wird richtig summiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.472,15 € + 200 € = 1.672,15 € zuzüglich ausdrücklich zu schätzendem Wert des Feststellungsantrags (§ 3 ZPO, Feststellungsabschlag), mit Hinweis, dass der Gesamtstreitwert über 2.000 € liegen kann."
+          },
+          {
+            "id": "c9",
+            "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "3 Gebühren nach § 34 GKG, Nr. 1210 KV GKG, streitwertgestaffelt (309 €/376,50 €/444 €), Vorschusspflicht nach § 12 Abs. 1 GKG."
+          },
+          {
+            "id": "c10",
+            "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1,3 Verfahrensgebühr, 1,2 Terminsgebühr, 20 € Auslagenpauschale, 19 % USt (Nrn. 3100, 3104, 7002, 7008 VV RVG) je Seite mit Gesamtrisikotabelle."
+          },
+          {
+            "id": "c11",
+            "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Rechnet den gegnerischen Haftungsanteil von 6.752,15 € gegen den gesamten ungedeckten Eigenschaden von 2.274,30 € und leitet daraus die ungekürzte Ersatzpflicht ab – keine positionsweise Quotelung."
+          },
+          {
+            "id": "c12",
+            "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ausdrücklich: Haftungsanteil reicht zur vorrangigen Deckung des Eigenschadens von 2.274,30 €, nach Abzug der HUK-Zahlungen von 802,15 € verbleiben 1.472,15 € – identisch mit der Musterlösung."
+          },
+          {
+            "id": "c13",
+            "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt F: Nutzungsausfall statt Mietwagen mit Voraussetzungen, Tabelleneinstufung offen gelassen, Rechenbeispiel 4 × 50 €, Hinweis auf Herabstufung wegen Fahrzeugalters."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Bemessungsgrundlage der Gesamthaftungssumme",
+            "description": "Legt für die Haftungssumme die (angenommene) tatsächliche Reparaturrechnung von 11.500 € brutto zugrunde (13.504,30 € × 50 % = 6.752,15 €), die Musterlösung die Gutachtenwerte (15.004,30 € × 50 % = 7.502,15 €). Ergebnis identisch, da der Eigenschaden in beiden Varianten deutlich unter der Haftungssumme liegt.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Nutzungsausfall im Klageantrag",
+            "description": "Der Klageantrag setzt den Nutzungsausfall mit 200 € (Vollhaftungsansatz) an, während die Musterlösung von der 50-%-Arbeitshypothese ausgeht; die quotale Alternative (100 €) wird aber ausdrücklich ausgerechnet und offengelegt.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Verzug/Zinsen",
+            "description": "Verlangt nur Prozesszinsen (§§ 291, 288 Abs. 1 S. 2 BGB), weil ein Verzugsbeginn nicht feststellbar ist – zurückhaltender als Kimi K3, Claude Opus 5.0 und Claude Fable 5.1, aber sachlich vertretbar und begründet.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "kimi-k3",
+        "label": "Kimi K3",
+        "modelName": "moonshotai/Kimi-K3",
+        "score": 63,
+        "aiScore": 63,
+        "humanScore": null,
+        "rationale": "Der Output erkennt Passivlegitimation, Leasingproblematik und Nutzungsausfall und kommt beim Kernbetrag (1.472,15 €) rechnerisch zum Ergebnis der Musterlösung, allerdings ohne die tragende Begründung: Das Quotenvorrecht wird nur beiläufig erwähnt, nicht angewendet und in der Klage nicht vorgetragen. Zusätzlich fehlen der Feststellungsantrag zum Rückstufungsschaden und die quotale Geltendmachung der nicht bevorrechtigten Positionen; Kostenberechnung und Klageentwurf sind dagegen sauber und nachvollziehbar.",
+        "inputTokens": 3754,
+        "outputTokens": 34456,
+        "latencyMs": 233347,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "Es muss auf den fehlenden Klageanlass / Kostenlast hingewiesen werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Weist darauf hin, dass Minderwert, Nutzungsausfall und Pauschale der HUK offenbar noch nie beziffert angemeldet wurden, empfiehlt vorherige Schlussrechnung mit Frist und stellt das Kostenrisiko als 'grenzwertig' dar; § 93 ZPO wird nicht ausdrücklich genannt."
+          },
+          {
+            "id": "c2",
+            "label": "Die gegnerische Versicherung ist nicht passivlegitimiert und darf nicht verklagt werden.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Klar: kein Direktanspruch nach § 115 VVG gegen den Privathaftpflichtversicherer, richtiger Beklagter ist der Radfahrer; Klageentwurf entsprechend gefasst."
+          },
+          {
+            "id": "c3",
+            "label": "Feststellungsantrag hinsichtlich SFR Schadenhochstufung",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Rückstufungsschaden wird nur als optionaler Zahlungsantrag ('weiteren Schadensersatz in Höhe von [Betrag]') vorgesehen; ein Feststellungsantrag nach § 256 ZPO fehlt vollständig."
+          },
+          {
+            "id": "c4",
+            "label": "Aktivlegitimation hinsichtlich Minderwert thematisieren / berücksichtigen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Sicherungsabtretung im Leasingvertrag, Erfordernis der Rückabtretung/Freigabe vor Klageerhebung, ausdrücklicher Hinweis, dass der Minderwert wirtschaftlich dem Leasinggeber zustehen kann."
+          },
+          {
+            "id": "c5",
+            "label": "Quotenvorrecht erkannt und in Klage dargestellt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Nur beiläufige Erwähnung ('diese sind ... quotenbevorrechtigt'); § 86 Abs. 1 S. 2 VVG wird nicht genannt, im Klageentwurf wird das Quotenvorrecht nicht dargestellt, sondern allein 100 % Haftung behauptet."
+          },
+          {
+            "id": "c6",
+            "label": "Nicht quotenbevorrechtigte Ansprüche quotal geltend gemacht",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Nutzungsausfall und Auslagenpauschale werden zu 100 % geltend gemacht; eine quotale Geltendmachung der nicht bevorrechtigten Positionen wird nicht dargestellt, Nutzungsausfall wird sogar fälschlich als quotenbevorrechtigt bezeichnet."
+          },
+          {
+            "id": "c7",
+            "label": "Richtige Addition von Gutachterzahlungen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.104,30 € − 552,15 € (HUK) − 230 € (Kasko) = 322,15 € zutreffend."
+          },
+          {
+            "id": "c8",
+            "label": "Streitwert wird richtig summiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.757,15 € rechnerisch korrekt summiert (Kern 1.472,15 € wie Musterlösung + 260 € Nutzungsausfall + 25 € Pauschale); ein Streitwertanteil für einen Feststellungsantrag fehlt, da kein solcher gestellt wird."
+          },
+          {
+            "id": "c9",
+            "label": "Gerichtskosten (3 GK) werden auf Basis des Streitwerts ermittels",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "3,0 Gebühren Nr. 1210 KV GKG à 98 € = 294 €, mit ausdrücklichem Vorbehalt zur Aktualität der Tabelle."
+          },
+          {
+            "id": "c10",
+            "label": "Gegnerische RA Kosten (1,3 Verfahrensgebühr, 1,2 Terminsgebühr, Kostenpausch und Ust) werden auf Basis des Streitwerts als Schaden errechnet.",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1,3 Verfahrensgebühr 215,80 € + 1,2 Terminsgebühr 199,20 € + 20 € Pauschale + 19 % USt = 517,65 € je Seite, Gesamtrisiko 1.329,30 €."
+          },
+          {
+            "id": "c11",
+            "label": "Quotenvorrecht wird korrekt angewendet: voller Eigenschaden wird vorrangig ersetzt, gedeckelt auf die GESAMTE Haftungssumme über den ganzen Schadensfall (nicht je Einzelposition quotiert)",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Keine Deckelung auf die Gesamthaftungssumme, keine Vorrechtsberechnung; die vollen Eigenschadenpositionen werden nur deshalb ungekürzt angesetzt, weil 100 % Haftung behauptet wird."
+          },
+          {
+            "id": "c12",
+            "label": "Erkennt, dass der gesamte Eigenschaden (Selbstbeteiligung + Gutachten-Eigenanteil + Minderwert = 2.274,30 €) unterhalb der Gesamthaftungssumme liegt und daher ungekürzt (abzüglich bereits Gezahltem = 1.472,15 € offen) zu ersetzen ist – nicht nur ein quotaler Anteil je Position",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Der Betrag 1.472,15 € entsteht rechnerisch zwar, wird aber nicht als vorrangig zu befriedigender Eigenschaden (2.274,30 € unter der Gesamthaftungssumme) hergeleitet."
+          },
+          {
+            "id": "c13",
+            "label": "Nutzungsausfallentschädigung (statt Mietwagenkosten) für die 4 Tage wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nutzungsausfall statt Mietwagen, 4 × 65 € = 260 €, Gruppe J Sanden/Danner/Küppersbusch mit Verifizierungshinweis."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Quotenvorrecht",
+            "description": "Anders als GPT-6 Astra und die Musterlösung wird das Quotenvorrecht nach § 86 Abs. 1 S. 2 VVG weder rechtlich hergeleitet noch in der Klageschrift vorgetragen; die Klage stützt sich allein auf 100 % Haftung. Bei einer gerichtlichen Quote von 50 % bricht die Begründung weg, obwohl der Betrag auch dann geschuldet wäre.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Einordnung des Nutzungsausfalls",
+            "description": "Nutzungsausfall wird als quotenbevorrechtigte Position bezeichnet; richtig ist, dass er nicht kongruent und daher nur quotal ersatzfähig ist (so Musterlösung, GPT-6 Astra, Claude Opus 5.0 und Claude Fable 5.1).",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Rückstufungsschaden",
+            "description": "Kein Feststellungsantrag, sondern nur ein optionaler Zahlungsantrag; damit wird das Problem der fehlenden Bezifferbarkeit prozessual nicht gelöst (Musterlösung: Feststellungsantrag, § 256 ZPO).",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Differenz Gutachten/Reparaturrechnung",
+            "description": "Hält die Differenz zwischen 13.000 € netto und 11.500 € brutto pauschal für nicht einklagbar, statt sie – wie die Musterlösung und Claude Fable 5.1 – als offenen, ggf. quotenbevorrechtigten Eigenschaden zu kennzeichnen.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Zitat einer BGH-Entscheidung",
+            "description": "Zitiert BGH NJW 1998, 1788 mit ausdrücklichem Verifizierungsvorbehalt; die Belegstelle ist nicht gesichert.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      }
+    ],
+    "order": 1
+  },
+  {
+    "id": "leasing-vorschaden",
+    "title": "Leasing Vorschaden",
+    "legalAreaSlug": "verkehrsrecht",
+    "taskInstructions": "Ich habe ein Leasingauto bestellt. Bei einem Werkstatttermin am 05.06.2026 kam heraus, dass das Fahrzeug bereits Vorschäden hatte. Ich will aber kein kaputtes Auto - das war ein Neuwagen-  und habe deshalb der NordLeasing den Rücktritt erklärt, diie sollen das Auto bei mir jetzt schnellstmöglich abholen. Die haben bis heute nicht reagiert. Ich will jetzt klagen, die NordLeasing soll das zurücknehmen! ",
+    "referenceSetTitle": "Kauf - Leasing-Auto",
+    "checklistPoints": [
+      {
+        "id": "c1",
+        "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen"
+      },
+      {
+        "id": "c2",
+        "label": "Gegner ist der Hersteller Audi, nicht NordLeasing"
+      },
+      {
+        "id": "c3",
+        "label": "Nutzungsersatz wird erkannt"
+      },
+      {
+        "id": "c4",
+        "label": "Fehlender Nacherfüllung wird erkannt"
+      },
+      {
+        "id": "c5",
+        "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen"
+      },
+      {
+        "id": "c6",
+        "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen"
+      },
+      {
+        "id": "c7",
+        "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst"
+      },
+      {
+        "id": "c8",
+        "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt"
+      },
+      {
+        "id": "c9",
+        "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet"
+      }
+    ],
+    "judgeSummary": "Alle fünf Outputs erkennen die leasingtypische Abtretungskonstruktion und kommen mit der Musterlösung zum Ergebnis, dass eine Klage gegen die Leasinggeberin auf Rücknahme keine Aussicht auf Erfolg hat und der richtige Gegner der Verkäufer/liefernde Händler ist. Unterschiede bestehen in der Schärfe der Herleitung des Sachmangels (§ 434 Abs. 3 BGB wird nur von GPT-6 Astra ausdrücklich genannt), in der Behandlung des Nutzungsersatzes, der Zug-um-Zug-Abwicklung nach Ziff. VIII.9 AGB (Zahlung an die Leasinggeberin) und in der Frage des § 477 BGB. Claude Fable 5.1 und GPT-6 Astra sind fachlich am dichtesten und vollständigsten; Claude Opus 5.0 liegt knapp dahinter; Kimi K3 ist solide, enthält aber eine ungenaue Aussage zur Nichterstattung der Leasingraten; GPT-5.6 Luna ist am schwächsten, weil es die Anwendbarkeit des § 477 BGB (Verbrauchsgüterkauf) fälschlich offenlässt und den Nutzungsersatz nur vage streift.",
+    "models": [
+      {
+        "slug": "claude-fable-5-1",
+        "label": "Claude Fable 5.1",
+        "modelName": "claude-fable-5-1",
+        "score": 95,
+        "aiScore": 88,
+        "humanScore": 95,
+        "rationale": "Claude Fable 5.1 trifft Ergebnis und tragende Begründung der Musterlösung nahezu vollständig: Abtretungskonstruktion, falscher Adressat, zwingende Nachfrist mit Nachlieferung, Zug-um-Zug-Zahlung an die Leasinggeberin, Nutzungsersatz und fortbestehende Ratenpflicht. Einziger nennenswerter Abzug: Der Sachmangel wird nicht über § 434 Abs. 3 BGB begründet; die Zusatzhinweise (§ 377 HGB, Verjährung, § 218 BGB) sind fachlich stark.",
+        "inputTokens": 33633,
+        "outputTokens": 19917,
+        "latencyMs": 259448,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Leasingvertrag, Ziff. VIII.1/2a AGB, § 398 BGB ausführlich dargestellt."
+          },
+          {
+            "id": "c2",
+            "label": "Gegner ist der Hersteller Audi, nicht NordLeasing",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Richtiger Anspruchsgegner ist der Verkäufer/Lieferant (Audi-Vertragshändler); Passivlegitimation der Leasinggeberin verneint."
+          },
+          {
+            "id": "c3",
+            "label": "Nutzungsersatz wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 346 Abs. 1, Abs. 2 S. 1 Nr. 1 BGB, Berechnungsformel km/Gesamtlaufleistung, Empfehlung minimaler Weiternutzung."
+          },
+          {
+            "id": "c4",
+            "label": "Fehlender Nacherfüllung wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nachfrist nach § 323 Abs. 1 BGB als zwingend bezeichnet, Entbehrlichkeit nur bei Arglist/Verweigerung."
+          },
+          {
+            "id": "c5",
+            "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "\"NordAuto Leasing ist als Empfängerin der Rücktrittserklärung der falsche Adressat; ihr Schweigen ist rechtlich ohne Bedeutung.\""
+          },
+          {
+            "id": "c6",
+            "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nachlieferung eines mangelfreien Neufahrzeugs nach § 439 Abs. 1 BGB als vorrangige Nacherfüllung, mit konkreter Fristempfehlung."
+          },
+          {
+            "id": "c7",
+            "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ziff. VIII.9 AGB zitiert: Rückgabe nur gegen Erfüllung der Zahlungspflicht des Verkäufers gegenüber dem Leasinggeber; Klageantrag auf Zahlung an NordAuto Leasing."
+          },
+          {
+            "id": "c8",
+            "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ziff. VIII.4/5 AGB; Ratenpflicht besteht bis Klageerhebung gegen den Lieferanten fort, Kündigungsrisiko benannt."
+          },
+          {
+            "id": "c9",
+            "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet",
+            "status": "neutral",
+            "humanCorrected": true,
+            "detail": "Sachmangel wird über die Beschaffenheitsvereinbarung \"fabrikneu\" (§ 434 Abs. 1, Abs. 2 S. 1 Nr. 1 BGB) hergeleitet; § 434 Abs. 3 BGB (übliche Beschaffenheit) wird nicht angeführt."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Herleitung des Sachmangels",
+            "description": "Claude Fable 5.1 stützt den Mangel auf die subjektive Beschaffenheitsvereinbarung statt auf § 434 Abs. 3 BGB (übliche Beschaffenheit) wie die Musterlösung; im Ergebnis vertretbar, dogmatisch aber abweichend.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 377 HGB",
+            "description": "Claude Fable 5.1 thematisiert – über die Musterlösung hinaus – die kaufmännische Rügeobliegenheit und deren Zurechnung; fachlich wertvoller Zusatz.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Rückzahlung von Raten/Sonderzahlung",
+            "description": "Claude Fable 5.1 nimmt an, nach Wegfall der Geschäftsgrundlage seien Raten und Sonderzahlung vom Leasinggeber zu erstatten; das entspricht der BGH-Linie, geht aber über die Musterlösung hinaus und ist im Detail streitig (wird von Claude Fable 5.1 selbst kenntlich gemacht).",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "claude-opus-5",
+        "label": "Claude Opus 5.0",
+        "modelName": "claude-opus-5",
+        "score": 85,
+        "aiScore": 85,
+        "humanScore": null,
+        "rationale": "Claude Opus 5.0 deckt Ergebnis und tragende Begründung der Musterlösung (Abtretungskonstruktion, falscher Adressat, Fristsetzung/Nachlieferung, Zahlung an die Leasinggeberin, Ratenpflicht) vollständig ab und ist praktisch gut verwertbar. Abzüge für den nur gestreiften Nutzungsersatz, die fehlende Herleitung über § 434 Abs. 3 BGB und das Übergehen des § 377 HGB.",
+        "inputTokens": 33631,
+        "outputTokens": 19614,
+        "latencyMs": 258353,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Leasingvertrag, Ziff. VIII.1, VIII.2a, VIII.3 AGB einschließlich Ermächtigung/Prozessstandschaft."
+          },
+          {
+            "id": "c2",
+            "label": "Gegner ist der Hersteller Audi, nicht NordLeasing",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Händler/Lieferant als richtiger Gegner; Klage gegen die Leasinggeberin wäre unbegründet."
+          },
+          {
+            "id": "c3",
+            "label": "Nutzungsersatz wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nutzungswert wird als zu verrechnende Position genannt (auch bei Anfechtung \"unter Anrechnung des Nutzungswerts\"), jedoch ohne § 346 Abs. 2 BGB und ohne Berechnung."
+          },
+          {
+            "id": "c4",
+            "label": "Fehlender Nacherfüllung wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "\"Grundsätzlich ist eine Nacherfüllungsfrist zu setzen\"; konkrete Empfehlung 14 Tage, hilfsweise Entbehrlichkeit bei Arglist."
+          },
+          {
+            "id": "c5",
+            "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Rücktritt an die Leasinggeberin geht \"an den falschen Erklärungsempfänger\" und löst keine Rechtsfolgen aus."
+          },
+          {
+            "id": "c6",
+            "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nachlieferung eines fabrikneuen Fahrzeugs als Nacherfüllungsvariante, Ziff. VIII.7 AGB (Fahrzeugtausch)."
+          },
+          {
+            "id": "c7",
+            "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Klage gegen den Händler auf Zahlung des Kaufpreises an die NordAuto Leasing GmbH, Zug um Zug gegen Rückgabe; Rückgewähransprüche verbleiben beim Leasinggeber."
+          },
+          {
+            "id": "c8",
+            "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Eigener Abschnitt: Raten erst nach Klageerhebung gegen den Händler vorläufig verweigerbar (Ziff. VIII.4/5 AGB)."
+          },
+          {
+            "id": "c9",
+            "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "§ 434 BGB wird zitiert, die Begründung erfolgt aber über die Fabrikneuheit als vereinbarte Beschaffenheit; § 434 Abs. 3 BGB wird nicht herangezogen."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Nutzungsersatz",
+            "description": "Nur knappe Erwähnung des \"Nutzungswerts\"; die Belastung des Mandanten mit Wertersatz nach § 346 Abs. 1, Abs. 2 Nr. 1 BGB wird nicht klar herausgearbeitet.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Herleitung des Sachmangels",
+            "description": "Keine Subsumtion unter § 434 Abs. 3 BGB (übliche Beschaffenheit) entsprechend der Musterlösung.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Zusätzliche Ansätze gegen die Leasinggeberin",
+            "description": "Claude Opus 5.0 prüft zusätzlich Anfechtung nach §§ 123, 124 BGB und c.i.c. gegen die Leasinggeberin sowie die Minderungsoption; das geht über die Musterlösung hinaus, ist aber fachlich vertretbar und praxisnah.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 377 HGB",
+            "description": "Die kaufmännische Rügeobliegenheit wird – anders als bei Claude Fable 5.1, GPT-6 Astra und Kimi K3 – nicht angesprochen.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-5-6-luna",
+        "label": "GPT-5.6 Luna",
+        "modelName": "gpt-5.6-luna",
+        "score": 60,
+        "aiScore": 74,
+        "humanScore": 60,
+        "rationale": "GPT-5.6 Luna trifft das Ergebnis der Musterlösung und arbeitet insbesondere Ziff. VIII.9 AGB und die fortbestehende Ratenpflicht sauber heraus. Abzüge für die fehlerhafte Offenhaltung des § 477 BGB (kein Verbrauchsgüterkauf), den nur pauschal gestreiften Nutzungsersatz, die unscharfe Verjährungsdarstellung und die fehlende Herleitung über § 434 Abs. 3 BGB.",
+        "inputTokens": 16353,
+        "outputTokens": 4340,
+        "latencyMs": 42918,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Leasingvertrag und Ziff. VIII.1/2a AGB mit Abtretung der Gewährleistungsrechte dargestellt."
+          },
+          {
+            "id": "c2",
+            "label": "Gegner ist der Hersteller Audi, nicht NordLeasing",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ansprüche sind gegen den liefernden Händler bzw. Verkäufer/Hersteller zu richten, nicht gegen die Leasinggeberin."
+          },
+          {
+            "id": "c3",
+            "label": "Nutzungsersatz wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nur pauschal: \"können Nutzungsersatz, gefahrene Kilometer und weitere Positionen eine Rolle spielen\" – ohne § 346 BGB und ohne Hinweis auf die Belastung des Mandanten."
+          },
+          {
+            "id": "c4",
+            "label": "Fehlender Nacherfüllung wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Eigener Abschnitt C: vor Rücktritt grundsätzlich Nacherfüllung verlangen; pauschale Erklärung gegenüber der Leasinggeberin ersetzt dies nicht."
+          },
+          {
+            "id": "c5",
+            "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Erkennt, dass der gegenüber NordAuto Leasing erklärte Rücktritt allein nicht wirkt, und fragt, ob auch gegenüber dem Händler erklärt wurde."
+          },
+          {
+            "id": "c6",
+            "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "\"Bei einem als Neuwagen bestellten Fahrzeug kann die Nachlieferung eines mangelfreien Neufahrzeugs in Betracht kommen\" – ohne die Abgrenzung Gattungs-/Stückschuld zum Gebrauchtwagen."
+          },
+          {
+            "id": "c7",
+            "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ziff. VIII.9 AGB ausdrücklich: Rückgabe nur Zug um Zug gegen Erfüllung der Zahlungsverpflichtung des Händlers gegenüber der Leasinggeberin."
+          },
+          {
+            "id": "c8",
+            "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt G: keine eigenmächtige Einstellung der Raten, Ziff. VIII.4 AGB, Kündigungs-/Vollamortisationsrisiko."
+          },
+          {
+            "id": "c9",
+            "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Nennt § 434 BGB pauschal und stützt auf die Bezeichnung \"fabrikneu, unbenutzt\"; § 434 Abs. 3 BGB wird nicht angeführt."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "§ 477 BGB / Verbrauchsgüterkauf",
+            "description": "GPT-5.6 Luna hält die Beweislastumkehr des § 477 BGB für möglicherweise anwendbar und lässt die Frage offen. Tatsächlich liegt kein Verbrauchsgüterkauf vor (Käuferin ist die gewerbliche Leasinggeberin); Claude Fable 5.1, Claude Opus 5.0, GPT-6 Astra und Kimi K3 stellen das zutreffend klar. Fehlerhafte Beweislasteinschätzung.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Nutzungsersatz",
+            "description": "Nur vage Erwähnung ohne Rechtsgrundlage und ohne Hinweis, dass dies zu Lasten des Mandanten geht.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 377 HGB",
+            "description": "Die kaufmännische Rügeobliegenheit im Verhältnis Verkäufer/Leasinggeberin wird nicht angesprochen.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Verjährung",
+            "description": "Verjährung wird primär über §§ 195, 199 BGB dargestellt und § 438 BGB nur nachrangig und unter erneutem Verweis auf \"Verbrauchsgüterkauf\" erwähnt – ungenau.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Abholpflicht",
+            "description": "Gut herausgearbeitet: keine Abholpflicht der Leasinggeberin (§ 10 Vertrag, Ziff. XII.1 AGB) – praktisch relevanter Zusatz gegenüber der Musterlösung.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-6-astra",
+        "label": "GPT-6 Astra",
+        "modelName": "gpt-6-astra",
+        "score": 95,
+        "aiScore": 88,
+        "humanScore": 95,
+        "rationale": "GPT-6 Astra deckt sämtliche Prüfpunkte einschließlich der ausdrücklichen Nennung des § 434 Abs. 3 BGB ab und trifft Ergebnis wie tragende Begründung der Musterlösung (falscher Adressat § 349 BGB, erforderliche Fristsetzung wegen möglicher Ersatzlieferung, Zahlung an die Leasinggeberin, Nutzungsvorteile, Ratenpflicht). Leichter Abzug nur wegen knapper Subsumtion beim Sachmangel und teils sehr vorsichtiger Formulierungen.",
+        "inputTokens": 16353,
+        "outputTokens": 4575,
+        "latencyMs": 88711,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Vertrag, Ziff. VIII.1–3 AGB: Haftungsausschluss gegen Überlassung der kaufrechtlichen Mängelrechte, Ermächtigung nach Ziff. VIII.3."
+          },
+          {
+            "id": "c2",
+            "label": "Gegner ist der Hersteller Audi, nicht NordLeasing",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Verkäufer aus dem Kaufvertrag der Leasinggeberin ist erster Anspruchsgegner; zutreffende Klarstellung, dass der Hersteller nur bei eigener Verkäuferstellung haftet."
+          },
+          {
+            "id": "c3",
+            "label": "Nutzungsersatz wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "\"tatsächlich gezogene Nutzungsvorteile\" sind abzurechnen; ausdrücklich keine vollständige Erstattung ohne Berücksichtigung der Nutzung."
+          },
+          {
+            "id": "c4",
+            "label": "Fehlender Nacherfüllung wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt C: Rücktritt setzt nach § 437 Nr. 2, § 323 Abs. 1 BGB regelmäßig erfolglose Fristsetzung voraus; Entbehrlichkeitstatbestände differenziert."
+          },
+          {
+            "id": "c5",
+            "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 349 BGB: Rücktritt ist gegenüber dem Verkäufer zu erklären; Erklärung nur gegenüber der Leasinggeberin genügt nicht; Schweigen kein Anerkenntnis."
+          },
+          {
+            "id": "c6",
+            "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ersatzlieferung eines mangelfreien Fahrzeugs trotz nicht reparabler Unfalleigenschaft möglich (§ 439 Abs. 1 BGB, Ziff. VIII.7 AGB) – daher Fristsetzung nötig."
+          },
+          {
+            "id": "c7",
+            "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ziff. VIII.9 AGB: Rückgabe an den Lieferanten Zug um Zug gegen dessen Zahlung an die Leasinggeberin; Klageantrag auf Kaufpreiszahlung an die Leasinggeberin."
+          },
+          {
+            "id": "c8",
+            "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Abschnitt G: kein Zahlungsstopp, Ziff. VIII.4 AGB knüpft an Klageerhebung gegen den Verkäufer an, § 253 ZPO."
+          },
+          {
+            "id": "c9",
+            "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 434 Abs. 1, Abs. 2 und Abs. 3 BGB werden ausdrücklich als maßgeblich benannt; die Subsumtion unter die übliche Beschaffenheit bleibt allerdings knapp."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Subsumtion § 434 Abs. 3 BGB",
+            "description": "GPT-6 Astra nennt Abs. 3 ausdrücklich, arbeitet die \"übliche und zu erwartende Beschaffenheit eines Neuwagens\" aber nur kurz aus; inhaltlich dennoch der Musterlösung am nächsten.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 377 HGB und § 218 BGB",
+            "description": "Zusätzlich zur Musterlösung werden Rügeobliegenheit, Verjährungsverkürzung im B2B-Kaufvertrag und § 438 Abs. 4/§ 218 BGB behandelt – fachlich wertvoll.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Annahmeverzug/Abholpflicht",
+            "description": "Korrekt herausgearbeitet, dass keine Abholpflicht besteht und §§ 293 ff. BGB ein ordnungsgemäßes Angebot voraussetzen.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "kimi-k3",
+        "label": "Kimi K3",
+        "modelName": "moonshotai/Kimi-K3",
+        "score": 81,
+        "aiScore": 81,
+        "humanScore": null,
+        "rationale": "Kimi K3 trifft Ergebnis und tragende Begründung der Musterlösung und punktet mit präzisem Nutzungsersatz und dem Ansatz der entwerteten Abtretung. Abzüge für die pauschal unzutreffende Aussage zur Nichterstattung der Leasingraten, die fehlende Herleitung über § 434 Abs. 3 BGB und eine unsichere AGB-Fundstelle.",
+        "inputTokens": 21890,
+        "outputTokens": 20286,
+        "latencyMs": 808347,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "AGB Klausel erkennen: Abtretung von kaufrechtlichen Ansprüchen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Leasingvertrag i.V.m. Ziff. VIII.1, VIII.2a, IX AGB; Abtretung und Ausnahme der Rückgewähransprüche erläutert."
+          },
+          {
+            "id": "c2",
+            "label": "Gegner ist der Hersteller Audi, nicht NordLeasing",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Richtiger Adressat ist der liefernde Händler über die abgetretenen Ansprüche; Klage gegen die Leasinggesellschaft hat schlechte Aussichten."
+          },
+          {
+            "id": "c3",
+            "label": "Nutzungsersatz wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Nutzungsentschädigung nach § 346 Abs. 2 S. 1 Nr. 1 BGB mit konkreter Größenordnung (ca. 7.500–15.000 €)."
+          },
+          {
+            "id": "c4",
+            "label": "Fehlender Nacherfüllung wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Rücktritt erst nach erfolglosem Ablauf einer Nacherfüllungsfrist (§ 323 Abs. 1, § 440 BGB); sofortiger Rücktritt prozessual riskant."
+          },
+          {
+            "id": "c5",
+            "label": "Rücktritt wurde gegenüber dem falschen Adressaten (NordLeasing statt Audi) erklärt – Problem wird angesprochen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Rücktritt gegenüber der Leasinggesellschaft sei \"begrifflich verfehlt\", da Käuferin die Leasinggesellschaft ist; Umdeutung nach § 140 BGB erörtert."
+          },
+          {
+            "id": "c6",
+            "label": "Neuwagen-Eigenschaft erkannt: Nachlieferung ist bei einem Neuwagen (anders als beim Gebrauchtwagen) grundsätzlich möglich, daher wäre eine Fristsetzung zur Nacherfüllung erforderlich gewesen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Bei Neuware Wahlrecht Nachbesserung/Nachlieferung eines fabrikneuen Fahrzeugs; Ziff. VIII.7 AGB; Fristsetzung empfohlen."
+          },
+          {
+            "id": "c7",
+            "label": "Rückgabe des Fahrzeugs erfolgt nach den AGB nur Zug um Zug gegen Zahlung des Verkäufers an die Leasinggeberin, nicht an den Kunden selbst",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Rückgewähransprüche (Kaufpreis) verbleiben bei der Leasinggesellschaft; Zahlung fließt an sie, Geltendmachung in Prozessstandschaft, Rückgabe Zug um Zug."
+          },
+          {
+            "id": "c8",
+            "label": "Fortbestehende Pflicht zur Leasingratenzahlung bis zur gerichtlichen Klärung mit dem Verkäufer wird erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Raten laufen weiter; Zahlungseinstellung vor Klageerhebung gegen den Händler unzulässig (Ziff. VIII.4–6 AGB)."
+          },
+          {
+            "id": "c9",
+            "label": "Sachmangel wird sauber über § 434 Abs. 3 BGB (übliche Beschaffenheit eines als Neuwagen verkauften Fahrzeugs) begründet",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Mangel wird über die fehlende Fabrikneuheit und pauschal § 434 BGB begründet; § 434 Abs. 3 BGB wird nicht genannt."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Rückerstattung der Leasingraten",
+            "description": "Kimi K3 behauptet pauschal, die gezahlten Leasingraten erhalte der Mandant nicht zurück. Nach ständiger Rechtsprechung und Ziff. VIII.8 AGB ist der Leasingvertrag nach Wegfall der Geschäftsgrundlage rückabzuwickeln; die Raten sind grundsätzlich zu erstatten, allerdings unter Anrechnung von Gebrauchsvorteilen. Die Aussage ist in dieser Pauschalität unzutreffend.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Herleitung des Sachmangels",
+            "description": "Keine Subsumtion unter § 434 Abs. 3 BGB entsprechend der Musterlösung.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": true
+          },
+          {
+            "topic": "\"Entwertete Abtretung\"",
+            "description": "Kimi K3 arbeitet als einziges ausführlich den Durchgriff auf die mietrechtliche Haftung bei entwerteter Abtretung heraus (§ 307 BGB) – fachlich wertvoller, zutreffender Zusatz.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "AGB-Zitat Rückgabeort",
+            "description": "Verweis auf \"Ziff. XIII.1 AGB\" für den Rückgabeort weicht von den sonst zitierten Fundstellen (Ziff. XII.1) ab; mögliche Fehlzitierung.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      }
+    ],
+    "order": 0
+  },
+  {
+    "id": "arbeitsunfall-ungeklaerte-haftung",
+    "title": "Arbeitsunfall mit ungeklärter Haftung",
+    "legalAreaSlug": "verkehrsrecht",
+    "taskInstructions": "Sachverhalt\nMatthias Müller (M) ist als Aushilfe in einem kleinen Wuppertaler Elektronikgeschäft Saturna (S) für 1.900 € Bruttomonatsgehalt beschäftigt. Am 20.05.2026 verkaufte dort S eine hochwertige Unikat-Hifi-Anlage im Wert von 5.000,00 € an den Musikliebhaber Carsten Krämer (K). Da die Anlage sehr groß ist, beauftragte S den M die Anlage an K  zu liefern. Dies soll er mit seinem Privat-PKW machen, da S kein Firmenfahrzeug hat. Hierfür erhält er eine Kilometerpauschale von 0,35 €. \n\nM macht sich auf den Weg zu K und geriet hierbei in einen schweren Verkehrsunfall. Sein Fahrzeug erlitt einen Totalschaden in Höhe von 7.500 €. Die Hifi-Anlage ging dabei wie Ms Brille im Wert von 199 € vollständig zu Bruch. M war unfallbedingt 4 Wochen arbeitsunfähig. \n\nDer genaue Unfallhergang lässt sich nicht mehr aufklären, auch nicht, wer für den Unfall verantwortlich war.\n \n1.\tM verlangt für die unfallbedingte Ausfallzeit die Zahlung des vereinbarten Lohns und Ersatz der Brille, er weiß aber nicht von wem. Zudem fragt er sich, was jetzt mit einem Auto ist. \n2.\tS sieht das überhaupt nicht ein. Er will die 5.000 € für die kaputt gegangene HiFi-Anlage haben. Wenn er die Ausfallzeit an M zahlen soll, dann will er wenigstens Erstattung von jemanden hierfür bekommen, er weiß aber nicht von wem.  \n\n\n\nBeantworte die Fragen so präzise wie möglich. Gebe die Anspruchsgrundlage an und begründe deine Antworten, warum ein Anspruch gegen wen (nicht) bestehen könnte. Begründe auch, in welcher Höhe der Anspruch besteht und warum.  \n",
+    "referenceSetTitle": "VUP - Klausur Hifi-Anlage",
+    "checklistPoints": [
+      {
+        "id": "c1",
+        "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt"
+      },
+      {
+        "id": "c2",
+        "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen"
+      },
+      {
+        "id": "c3",
+        "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs"
+      },
+      {
+        "id": "c4",
+        "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden"
+      },
+      {
+        "id": "c5",
+        "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt"
+      },
+      {
+        "id": "c6",
+        "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog"
+      },
+      {
+        "id": "c7",
+        "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen"
+      },
+      {
+        "id": "c8",
+        "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift"
+      },
+      {
+        "id": "c9",
+        "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet"
+      },
+      {
+        "id": "c10",
+        "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde"
+      },
+      {
+        "id": "c11",
+        "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M"
+      },
+      {
+        "id": "c12",
+        "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)"
+      },
+      {
+        "id": "c13",
+        "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert"
+      },
+      {
+        "id": "c14",
+        "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)"
+      }
+    ],
+    "judgeSummary": "Alle fünf Outputs behandeln den Fall umfassend, unterscheiden sich aber erheblich in der Trefferquote gegenüber der Musterlösung. Claude Opus 5.0 trifft die Musterlösung am besten (§ 3 EFZG mit Beweislast, § 670 BGB doppelt analog in voller Höhe, 50%-Quote gegen den Unfallgegner, § 619a BGB, § 6 EFZG, § 104 SGB VII für Personenschäden, Schmerzensgeld § 11 S. 2 StVG, Km-Pauschale), schwächt aber beim Brillenschaden die Sperrwirkung des § 104 SGB VII ab (Anspruch gegen S \"subsidiär\" bejaht). Claude Fable 5.1 arbeitet die Sperrwirkung des § 104 SGB VII bei der Brille am saubersten heraus, kürzt aber den Anspruch gegen S beim Pkw fehlerhaft auf 50% (statt vollem Aufwendungsersatz) – ein struktureller Fehler gegenüber der Musterlösung. GPT-6 Astra und GPT-5.6 Luna verfehlen jeweils zentrale Punkte: GPT-6 Astra relativiert die 50%-Quote stark und übersieht Schmerzensgeld und Km-Pauschale; GPT-5.6 Luna verkennt § 619a BGB nicht ausdrücklich, übersieht aber § 104 SGB VII, die 50%-Quote, Schmerzensgeld und die Km-Pauschale und bejaht den Brillenersatz gegen S. Kimi K3 lehnt § 670 BGB analog gegen S für Pkw und Brille ausdrücklich und fehlerhaft ab und stützt den Regress auf § 116 Abs. 2 SGB X statt § 6 Abs. 1 EFZG – die schwerwiegendsten Fehler im Feld.",
+    "models": [
+      {
+        "slug": "claude-fable-5-1",
+        "label": "Claude Fable 5.1",
+        "modelName": "claude-fable-5-1",
+        "score": 81,
+        "aiScore": 81,
+        "humanScore": null,
+        "rationale": "Claude Fable 5.1 ist fachlich sehr dicht, trifft § 3/§ 4 EFZG mit Berechnung, § 619a BGB, die 50%-Quote, § 6 Abs. 1 EFZG, § 11 S. 2 StVG und insbesondere als einziges Modell die Sperrwirkung des § 104 Abs. 1 SGB VII für die Brille konsequent. Abzüge vor allem für die strukturell fehlerhafte Kürzung des § 670-BGB-Anspruchs gegen S auf 50 % statt des vollen Betrags mit Abtretungslösung sowie für die fehlende Km-Pauschale und die fehlende ausdrückliche Sperre des Schmerzensgeldes gegen S.",
+        "inputTokens": 5681,
+        "outputTokens": 30277,
+        "latencyMs": 401094,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 3 Abs. 1 S. 1, § 4 Abs. 1 EFZG mit vollständiger Prüfung, Hinweis auf § 12 EFZG."
+          },
+          {
+            "id": "c2",
+            "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Verschuldensbegriff (grober Verstoß gegen eigenes Interesse), Beweislast BAG-Rspr. beim Arbeitgeber, S scheitert."
+          },
+          {
+            "id": "c3",
+            "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 17 Abs. 1, 2 StVG, keine Unabwendbarkeit, kein Anscheinsbeweis → Quote 50:50 als eigene Vorfrage."
+          },
+          {
+            "id": "c4",
+            "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 619a BGB ausdrücklich: abweichend von § 280 Abs. 1 S. 2 BGB trägt der Arbeitgeber die Beweislast; kein Anspruch."
+          },
+          {
+            "id": "c5",
+            "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Km-Pauschale wird nur im Kontext der Risikoabgeltung (§ 670 BGB) und als \"kein Entgelt\" bei § 4 EFZG erwähnt; der fortbestehende Vergütungsanspruch für die gefahrene Strecke fehlt."
+          },
+          {
+            "id": "c6",
+            "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 670 BGB analog mit BAG-Voraussetzungen (a)-(c) ausführlich bejaht."
+          },
+          {
+            "id": "c7",
+            "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Innerbetrieblicher Schadensausgleich spiegelbildlich, Beweislast nach Rechtsgedanken § 619a/§ 254 BGB beim Arbeitgeber, kein Abzug."
+          },
+          {
+            "id": "c8",
+            "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 8 Abs. 3 SGB VII (Hilfsmittel = Gesundheitsschaden) und § 104 Abs. 1 S. 1 SGB VII als Sperre des § 670-BGB-Anspruchs, Wegeunfall-Ausnahme verneint (Betriebsweg) – mit eigener Einschätzung \"Sperrwirkung ja\"."
+          },
+          {
+            "id": "c9",
+            "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.900 € / Divisor 30 bzw. 30,42 × 28 Tage = ca. 1.750–1.775 €, Entgeltausfallprinzip § 4 Abs. 1 EFZG."
+          },
+          {
+            "id": "c10",
+            "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 6 Abs. 1 EFZG als Legalzession inkl. AG-SV-Anteilen und 50%-Quote, ca. 1.060–1.150 €."
+          },
+          {
+            "id": "c11",
+            "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Ausdrücklich abweichend: Der Anspruch gegen S wird auf den \"Restschaden\" von 50 % (3.750 €) beschränkt, kein voller Anspruch gegen S und kein Wahlrecht des M."
+          },
+          {
+            "id": "c12",
+            "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 7 Abs. 1 StVG i.V.m. § 115 VVG, 50 % = 99,50 €; § 8 Nr. 3 StVG greift nicht gegenüber H; § 116 SGB X bei BG-Leistung."
+          },
+          {
+            "id": "c13",
+            "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Schmerzensgeld § 11 S. 2 StVG, § 253 Abs. 2 BGB, quotal 50 %, in der Ergebnistabelle ausgewiesen."
+          },
+          {
+            "id": "c14",
+            "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "§ 104 SGB VII wird zwar für die Brille (Personenschaden) ausführlich geprüft, aber nicht ausdrücklich auf ein Schmerzensgeld gegen S bezogen; dieses wird nur gegen V erörtert."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Kürzung des § 670-BGB-Anspruchs gegen S auf 50 %",
+            "description": "Claude Fable 5.1 beschränkt den Aufwendungsersatzanspruch gegen S auf den nicht vom Versicherer gedeckten Rest (3.750 €) statt auf volle 7.500 € mit Abtretungslösung nach § 255 BGB. Die Musterlösung und Claude Opus 5.0 sehen zutreffend den vollen Anspruch gegen S nebeneinander mit dem quotierten Anspruch gegen den Unfallgegner; die Konstruktion des Modells E benachteiligt M erheblich (Insolvenz-/Durchsetzungsrisiko, Vorleistungspflicht gegenüber V).",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Brillenschaden / § 104 SGB VII",
+            "description": "Claude Fable 5.1 arbeitet als einziges Modell die Sperrwirkung des § 104 Abs. 1 SGB VII für die Brille als fingierten Personenschaden konsequent heraus und kennzeichnet die Streitfrage offen – präziseste Umsetzung dieses Prüfpunkts im Feld.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": true
+          },
+          {
+            "topic": "Schmerzensgeld gegen S",
+            "description": "Der Ausschluss eines Schmerzensgeldanspruchs gegen S nach § 104 SGB VII wird nicht ausdrücklich gezogen, obwohl die Sperrwirkung für Personenschäden an anderer Stelle erkannt wird.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Kilometerpauschale",
+            "description": "Der Anspruch auf die Pauschale für die tatsächlich gefahrene Strecke wird nicht erkannt (anders Claude Opus 5.0).",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "AAG/U1 und Kaufrecht",
+            "description": "Sehr sorgfältige Zusatzprüfung (§ 1 AAG, § 475 Abs. 2 BGB, § 447 BGB, Doppelkompensation) mit zutreffenden Ergebnissen.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "claude-opus-5",
+        "label": "Claude Opus 5.0",
+        "modelName": "claude-opus-5",
+        "score": 92,
+        "aiScore": 92,
+        "humanScore": null,
+        "rationale": "Claude Opus 5.0 trifft 13 von 14 Prüfpunkten, einschließlich der schwierigen Punkte (§ 619a BGB, § 11 S. 2 StVG, § 104 SGB VII für Schmerzensgeld, Km-Pauschale, klares Nebeneinander von § 670-BGB- und StVG-Anspruch) und begründet durchweg auf hohem dogmatischem Niveau mit Beweislastanalyse. Einziger echter Mangel: Für die Brille wird die selbst erkannte Sperrwirkung des § 104 SGB VII nicht konsequent gezogen, sondern ein Anspruch gegen S bejaht.",
+        "inputTokens": 5679,
+        "outputTokens": 26070,
+        "latencyMs": 280302,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 3 Abs. 1 S. 1 EFZG mit vollständiger Voraussetzungsprüfung."
+          },
+          {
+            "id": "c2",
+            "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Verschuldensbegriff (grober Verstoß gegen eigenes Gesundheitsinteresse), Beweislast Arbeitgeber, non liquet zu Lasten S."
+          },
+          {
+            "id": "c3",
+            "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 17 Abs. 1, 2 StVG, keine Unabwendbarkeit, kein Anscheinsbeweis → 50:50, 3.750 €."
+          },
+          {
+            "id": "c4",
+            "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 619a BGB ausdrücklich als Abweichung von § 280 Abs. 1 S. 2 BGB; Beweislast beim Arbeitgeber."
+          },
+          {
+            "id": "c5",
+            "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Ausdrücklich: bis zum Unfall angefallenes Kilometergeld ist zu zahlen (§ 670 BGB i.V.m. Vereinbarung); § 4 Abs. 1a EFZG für die AU-Zeit."
+          },
+          {
+            "id": "c6",
+            "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 670 BGB analog als Hauptanspruch, 7.500 € gegen S, mit ausführlicher Voraussetzungsprüfung."
+          },
+          {
+            "id": "c7",
+            "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Kürzung analog § 254 BGB nach Grundsätzen der beschränkten Arbeitnehmerhaftung, Beweislast S, mangels Aufklärbarkeit keine Kürzung; zusätzlich Hinweis auf Gegenauffassung."
+          },
+          {
+            "id": "c8",
+            "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "§ 104 Abs. 1 SGB VII wird zwar für Personenschäden/Schmerzensgeld gegen S korrekt angewandt und § 8 Abs. 3 SGB VII für die Brille erkannt; dennoch wird der Brillenersatz gegen S aus § 670 BGB analog \"(+, subsidiär)\" bejaht – die Sperrwirkung für die Brille wird nicht gezogen."
+          },
+          {
+            "id": "c9",
+            "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "1.900 € × 28/30,4 ≈ 1.750 € brutto, Lohnausfallprinzip § 4 Abs. 1 EFZG."
+          },
+          {
+            "id": "c10",
+            "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 6 Abs. 1 EFZG mit 50%-Quotenbindung, ca. 875 € zzgl. AG-SV-Anteile; Abgrenzung zu BG und AAG."
+          },
+          {
+            "id": "c11",
+            "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Eigener Abschnitt 2.2 c) zum Verhältnis der Ansprüche: beide nebeneinander, keine Doppelkompensation, § 255 BGB analog, S schuldet volle 7.500 €."
+          },
+          {
+            "id": "c12",
+            "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§§ 7, 18 StVG, § 115 VVG, quotal 50 % = 99,50 €; § 8 Nr. 3 StVG greift nicht."
+          },
+          {
+            "id": "c13",
+            "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Schmerzensgeld gegen Unfallgegner § 11 S. 2 StVG / § 253 Abs. 2 BGB, quotal 50 %, Höhe offen."
+          },
+          {
+            "id": "c14",
+            "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 104 Abs. 1 SGB VII sperrt Schmerzensgeld gegen S; Ausnahmen (Vorsatz/Wegeunfall) verneint."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Brillenschaden gegen S",
+            "description": "Claude Opus 5.0 erkennt § 8 Abs. 3 SGB VII und die Haftungssperre des § 104 SGB VII für Personenschäden, zieht die Konsequenz aber nicht für die Brille und bejaht dort § 670 BGB analog (subsidiär) – inkonsistent gegenüber der eigenen Argumentation und Abweichung von der Musterlösung.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Anspruch S gegen Unfallgegner auf 5.000 €",
+            "description": "Volle Haftung des Unfallgegners gegenüber S als außenstehendem Ladungseigentümer, dogmatisch sorgfältig begründet (keine Zurechnung der Betriebsgefahr mangels Sonderverbindung) – geht über die Musterlösung hinaus, ist aber vertretbar und zutreffend.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 8 Nr. 3 StVG",
+            "description": "Klar subsumiert für die Anlage (Ausschluss) und die Brille (Ausnahme greift, weil an sich getragen) – präziser als die meisten anderen Outputs.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Kaufrechtlicher Exkurs / U1",
+            "description": "Zusätzliche, sachlich zutreffende Ausführungen zu §§ 275, 326, 475 Abs. 2 BGB und zum AAG-Umlageverfahren.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-5-6-luna",
+        "label": "GPT-5.6 Luna",
+        "modelName": "gpt-5.6-luna",
+        "score": 60,
+        "aiScore": 48,
+        "humanScore": 60,
+        "rationale": "GPT-5.6 Luna kommt bei Entgeltfortzahlung, § 670 BGB analog für den Pkw und § 6 EFZG zu richtigen Ergebnissen, bleibt aber bei tragenden Normen (§ 619a BGB, § 104/§ 8 Abs. 3 SGB VII) blass bis falsch. Die 50%-Betriebsgefahrenquote wird ausdrücklich nicht gezogen, Schmerzensgeld und Km-Pauschale fehlen, und der Brillenersatz gegen S wird entgegen der Musterlösung bejaht.",
+        "inputTokens": 2859,
+        "outputTokens": 6997,
+        "latencyMs": 51903,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 3 Abs. 1 S. 1 EFZG korrekt genannt."
+          },
+          {
+            "id": "c2",
+            "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Kein anspruchsausschließendes Verschulden festgestellt; ungeklärter Hergang genügt nicht."
+          },
+          {
+            "id": "c3",
+            "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Ausdrücklich: \"lässt sich derzeit keine Haftungsquote sicher feststellen\"; die 50%-Betriebsgefahrenteilung wird nicht gezogen."
+          },
+          {
+            "id": "c4",
+            "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden",
+            "status": "neutral",
+            "humanCorrected": true,
+            "detail": "§ 619a BGB wird nicht genannt; es wird nur allgemein gesagt, S müsse Pflichtverletzung und Verschulden beweisen – Ergebnis richtig, tragende Norm fehlt."
+          },
+          {
+            "id": "c5",
+            "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Km-Pauschale nur als möglicher Ausschlussgrund für § 670 BGB erörtert; kein fortbestehender Vergütungsanspruch für die gefahrene Strecke."
+          },
+          {
+            "id": "c6",
+            "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 670 BGB analog, 7.500 € gegen S."
+          },
+          {
+            "id": "c7",
+            "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Innerbetrieblicher Schadensausgleich als Minderungsmaßstab, mangels Nachweis keine Kürzung."
+          },
+          {
+            "id": "c8",
+            "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "§ 104 SGB VII und § 8 Abs. 3 SGB VII werden gar nicht erwähnt; Brillenersatz gegen S wird aus § 670 BGB analog mit 199 € bejaht – Widerspruch zur Musterlösung."
+          },
+          {
+            "id": "c9",
+            "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Nur pauschal \"1.900 € brutto bei vollständigem Monatsausfall\" bzw. \"erforderlichenfalls zeitanteilig\"; keine nachvollziehbare Berechnung für 4 Wochen."
+          },
+          {
+            "id": "c10",
+            "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 6 Abs. 1 EFZG als Forderungsübergang samt Begrenzung auf den Anspruch des M dargestellt."
+          },
+          {
+            "id": "c11",
+            "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M",
+            "status": "neutral",
+            "humanCorrected": true,
+            "detail": "Nur Hinweis auf Anrechnung; kein klares Nebeneinander von vollem Anspruch gegen S und quotiertem gegen den Unfallgegner (mangels Quote auch nicht möglich)."
+          },
+          {
+            "id": "c12",
+            "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Brille gegen Unfallgegner nur pauschal als ersatzfähig genannt, ohne 50%-Quote und ohne §§ 17 StVG-Konkretisierung."
+          },
+          {
+            "id": "c13",
+            "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Schmerzensgeld wird nicht erwähnt."
+          },
+          {
+            "id": "c14",
+            "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "§ 104 SGB VII wird gar nicht behandelt."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Brillenschaden gegen S",
+            "description": "GPT-5.6 Luna bejaht 199 € gegen S aus § 670 BGB analog und übersieht vollständig § 8 Abs. 3 i.V.m. § 104 Abs. 1 SGB VII – Ergebnis entgegen der Musterlösung und ohne Auseinandersetzung mit der Sperrwirkung.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Haftungsquote",
+            "description": "Die hälftige Haftungsteilung wegen beiderseitiger Betriebsgefahr wird nicht gezogen; stattdessen wird die Quote offengelassen.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 619a BGB",
+            "description": "Die zentrale Beweislastnorm wird nicht zitiert; das richtige Ergebnis wird nur allgemein begründet.",
+            "classification": "stylistic",
+            "severity": "medium",
+            "humanCorrected": true
+          },
+          {
+            "topic": "Schmerzensgeld",
+            "description": "Personenschaden/Schmerzensgeld wird überhaupt nicht thematisiert.",
+            "classification": "stylistic",
+            "severity": "medium",
+            "humanCorrected": true
+          },
+          {
+            "topic": "§ 8 Nr. 3 StVG",
+            "description": "Wird nur vage als \"mögliche Einschränkung\" angesprochen, nicht klar subsumiert (anders GPT-6 Astra, Claude Opus 5.0, Claude Fable 5.1).",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "gpt-6-astra",
+        "label": "GPT-6 Astra",
+        "modelName": "gpt-6-astra",
+        "score": 81,
+        "aiScore": 66,
+        "humanScore": 81,
+        "rationale": "GPT-6 Astra trifft die arbeitsrechtlichen Kernpunkte (§ 3 EFZG mit Beweislast, § 670 BGB analog in voller Höhe, § 619a BGB, § 104 SGB VII bei der Brille, § 6 EFZG) sehr genau und berechnet die Entgeltfortzahlung nachvollziehbar. Erhebliche Lücken bestehen jedoch bei der verkehrsrechtlichen Seite: Die 50%-Quote wird ausdrücklich relativiert, der Brillenschaden gegen den Unfallgegner nicht quotiert, Schmerzensgeld gänzlich übersehen und die Km-Pauschale für die gefahrene Strecke nicht erkannt.",
+        "inputTokens": 2859,
+        "outputTokens": 7192,
+        "latencyMs": 143249,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 3 Abs. 1 S. 1, Abs. 3, § 4 Abs. 1 EFZG genannt."
+          },
+          {
+            "id": "c2",
+            "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Verschuldensbegriff erörtert, Beweislast beim Arbeitgeber, mangels Nachweis verworfen."
+          },
+          {
+            "id": "c3",
+            "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs",
+            "status": "neutral",
+            "humanCorrected": true,
+            "detail": "50:50 nur hypothetisch erwähnt und ausdrücklich relativiert (\"Ein ungeklärter Unfallhergang bedeutet nicht automatisch eine Haftungsverteilung von 50:50\"); keine klare Zuordnung."
+          },
+          {
+            "id": "c4",
+            "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 619a BGB ausdrücklich: Arbeitgeber muss Vertretenmüssen beweisen; Anspruch scheitert."
+          },
+          {
+            "id": "c5",
+            "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Km-Pauschale nur im Rahmen von § 4 Abs. 1a EFZG (nicht fortzuzahlen) und als mögliche Risikoabgeltung erörtert; der fortbestehende Anspruch auf die Pauschale für die gefahrene Strecke wird nicht erwähnt."
+          },
+          {
+            "id": "c6",
+            "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 670 BGB analog, volle 7.500 € gegen S."
+          },
+          {
+            "id": "c7",
+            "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Innerbetrieblicher Schadensausgleich als Kürzungsmaßstab, Beweislast analog § 619a BGB."
+          },
+          {
+            "id": "c8",
+            "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 104 Abs. 1 S. 1 SGB VII i.V.m. § 8 Abs. 3 SGB VII, keine Wegeunfallausnahme – für die getragene Brille korrekt dargestellt."
+          },
+          {
+            "id": "c9",
+            "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Detaillierte Berechnung 1.900 × 12/31 + 1.900 × 16/30 = 1.748,82 €, Lohnausfallprinzip § 4 Abs. 1 EFZG."
+          },
+          {
+            "id": "c10",
+            "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 6 Abs. 1 EFZG als Legalzession ausführlich, Quotenbindung erkannt."
+          },
+          {
+            "id": "c11",
+            "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Kein klares Nebeneinander; Anspruch gegen den Unfallgegner wird als bloß hypothetisch dargestellt, Wahlrecht des M und Anrechnung werden nur angedeutet."
+          },
+          {
+            "id": "c12",
+            "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)",
+            "status": "neutral",
+            "humanCorrected": true,
+            "detail": "Nur pauschal \"auch Brillenschaden ... können gegenüber einem außenstehenden Schädiger ersatzfähig sein\"; keine 50%-Quote, keine §§ 7, 17, 18 StVG hierfür konkretisiert."
+          },
+          {
+            "id": "c13",
+            "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Schmerzensgeld wird nirgends thematisiert."
+          },
+          {
+            "id": "c14",
+            "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Kein Hinweis auf Ausschluss eines Schmerzensgeldanspruchs gegen S."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "Haftungsquote 50:50",
+            "description": "GPT-6 Astra relativiert die im Verkehrsrecht anerkannte hälftige Teilung bei unaufklärbarem Hergang massiv und behandelt sie nur als hypothetische Option, während Musterlösung, Claude Opus 5.0, Kimi K3 und Claude Fable 5.1 sie als Regelergebnis ansetzen.",
+            "classification": "stylistic",
+            "severity": "medium",
+            "humanCorrected": true
+          },
+          {
+            "topic": "Schmerzensgeld",
+            "description": "Weder § 11 S. 2 StVG gegen den Unfallgegner noch die Sperre nach § 104 SGB VII gegen S werden angesprochen – übersehener Anspruch.",
+            "classification": "stylistic",
+            "severity": "medium",
+            "humanCorrected": true
+          },
+          {
+            "topic": "Kilometerpauschale",
+            "description": "Der fortbestehende Vergütungsanspruch für die bis zum Unfall gefahrene Strecke wird nicht erkannt.",
+            "classification": "manko",
+            "severity": "low",
+            "humanCorrected": false
+          },
+          {
+            "topic": "AAG/U1-Erstattung",
+            "description": "Zusätzlich und zutreffend wird der U1-Ausgleich als praktisch wichtigster Erstattungsweg für S dargestellt – sachlicher Mehrwert über die Musterlösung hinaus.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": true
+          },
+          {
+            "topic": "Differenzierung getragene/mitgeführte Brille",
+            "description": "Fachlich sauber differenziert; für die mitgeführte Brille wird § 670 BGB analog gegen S angenommen – vertretbar.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      },
+      {
+        "slug": "kimi-k3",
+        "label": "Kimi K3",
+        "modelName": "moonshotai/Kimi-K3",
+        "score": 42,
+        "aiScore": 42,
+        "humanScore": 42,
+        "rationale": "Kimi K3 arbeitet die verkehrsrechtliche Seite (50:50-Quote, Drittschadensposition des S, Schmerzensgeld, § 104 SGB VII beim Personenschaden) gut heraus, verfehlt aber die arbeitsrechtlichen Kernpunkte gravierend: § 670 BGB analog wird ausdrücklich abgelehnt, § 619a BGB fehlt, und der Regress wird auf § 116 Abs. 2 SGB X statt § 6 Abs. 1 EFZG gestützt. Diese drei Fehler betreffen jeweils tragende Ergebnisse und wirken sich zu Lasten des Mandanten M aus.",
+        "inputTokens": 3838,
+        "outputTokens": 34453,
+        "latencyMs": 253748,
+        "checklist": [
+          {
+            "id": "c1",
+            "label": "§ 3 I 1 EFZG wird als Anspruchsgrundlage für Ms Anspruch auf Entgeltfortzahlung erkannt",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§ 3 Abs. 1, § 4 EFZG korrekt."
+          },
+          {
+            "id": "c2",
+            "label": "Zusatzpunkt: Es wird Verschulden für Entfall der Entgeltfortzahlung erörtert und verworfen",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Verschulden i.S.d. § 3 EFZG geprüft und mangels Anhaltspunkten verneint."
+          },
+          {
+            "id": "c3",
+            "label": "Unaufklärbarkeit des Unfalls führt zu Anspruch aus Betriebsgefahr in Höhe von 50% gegen Halter des anderen Fahrzeugs",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§§ 7, 17 Abs. 1, 2 StVG, hälftige Schadensteilung 50/50 als zentraler Prüfungspunkt vorangestellt."
+          },
+          {
+            "id": "c4",
+            "label": "Kein Anspruch S gegen M: § 619a BGB Vertretenmüssen muss positiv festgestellt und nicht nur vermutet werden",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "§ 619a BGB wird nicht genannt; stattdessen wird behauptet, die Vermutung des § 280 Abs. 1 S. 2 BGB werde durch die Grundsätze der beschränkten Arbeitnehmerhaftung (§ 242 BGB) durchbrochen – dogmatisch unzutreffende Begründung, richtige Norm verfehlt."
+          },
+          {
+            "id": "c5",
+            "label": "Aufwendungsersatz Kilometerpauschale: Ansprüche werden trotz Unfall erkannt und erwähnt",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Km-Pauschale nur als Abgeltung der Fahrzeugnutzung erwähnt (zur Ablehnung von § 670 BGB); kein fortbestehender Anspruch für die gefahrene Strecke."
+          },
+          {
+            "id": "c6",
+            "label": "Aufwendungsersatz M gegen S für Totalschaden: § 670 BGB doppelt analog",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "§ 670 BGB wird ausdrücklich abgelehnt (\"erstattet Aufwendungen, nicht Schäden\"); ein Anspruch des M gegen S für den Pkw wird verneint – klarer Widerspruch zur gefestigten BAG-Rechtsprechung und zur Musterlösung."
+          },
+          {
+            "id": "c7",
+            "label": "Zusatzpunkt: Einschränkung von § 670 BGB wegen eigener Haftung erwähnen",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Da § 670 BGB analog abgelehnt wird, findet keine Erörterung einer Kürzung dieses Anspruchs statt."
+          },
+          {
+            "id": "c8",
+            "label": "Kein Anspruch gegen S wegen der Brille: § 104 Abs. 1 SGB VII schließt die Haftung aus, da die Brille als Hilfsmittel gem. § 8 Abs. 3 SGB VII einem Personenschaden gleichsteht und keine Wegeunfall-Ausnahme (§ 8 Abs. 2 Nr. 1-4 SGB VII) bei einer echten Dienstfahrt greift",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Ablehnung des Anspruchs gegen S wegen der Brille erfolgt mit fehlender Pflichtverletzung/§ 618 BGB; § 8 Abs. 3 SGB VII und § 104 SGB VII werden für die Brille nicht herangezogen (§ 104 nur beim Schmerzensgeld). Statt § 27 SGB VII wird § 26 Abs. 3 SGB VII zitiert."
+          },
+          {
+            "id": "c9",
+            "label": "Höhe der Entgeltfortzahlung nach dem Lohnausfallprinzip (§ 4 EFZG) für die 4 Wochen wird nachvollziehbar berechnet",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Pauschal \"faktisch 1.900 € brutto (entsprechend einem vollen Monatsentgelt)\" ohne Umrechnung der 4 Wochen – keine nachvollziehbare Berechnung nach dem Lohnausfallprinzip."
+          },
+          {
+            "id": "c10",
+            "label": "§ 6 Abs. 1 EFZG (Legalzession) wird als Anspruchsgrundlage für S's Rückgriff auf den Unfallgegner erkannt, soweit Entgeltfortzahlung geleistet wurde",
+            "status": "present",
+            "humanCorrected": true,
+            "detail": "Der Rückgriff wird auf § 116 Abs. 2 SGB X gestützt; § 6 Abs. 1 EFZG wird nirgends genannt – falsche Rechtsgrundlage."
+          },
+          {
+            "id": "c11",
+            "label": "Klare Trennung zwischen dem vollen Aufwendungsersatzanspruch gegen S (§ 670 BGB analog) und dem nur hälftigen Anspruch gegen den Unfallgegner (Betriebsgefahr) – beide bestehen nebeneinander zur Wahl des M",
+            "status": "absent",
+            "humanCorrected": false,
+            "detail": "Ein Anspruch gegen S besteht nach Modell D gar nicht, daher keine Trennung/Wahlmöglichkeit; M bleibt auf 3.750 € sitzen."
+          },
+          {
+            "id": "c12",
+            "label": "Brillenschaden wird stattdessen zu 50% gegen den Unfallgegner geltend gemacht (§§ 7, 17, 18 StVG)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "§§ 7, 17 StVG, § 115 VVG: 99,50 € (50 % von 199 €)."
+          },
+          {
+            "id": "c13",
+            "label": "Schmerzensgeldanspruch (§ 11 S. 2 StVG) des M gegen den Unfallgegner wegen der eigenen Verletzung wird thematisiert",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Schmerzensgeld gegen G quotal 50 % angesprochen (§ 253 Abs. 2 BGB i.V.m. §§ 7, 17 StVG; § 11 S. 2 StVG nicht genannt)."
+          },
+          {
+            "id": "c14",
+            "label": "Erkennt, dass ein Schmerzensgeldanspruch gegen S selbst ebenfalls an § 104 Abs. 1 SGB VII scheitert (Personenschaden)",
+            "status": "present",
+            "humanCorrected": false,
+            "detail": "Schmerzensgeld gegen S ausdrücklich durch § 104 Abs. 1 SGB VII gesperrt."
+          }
+        ],
+        "divergences": [
+          {
+            "topic": "§ 670 BGB analog abgelehnt",
+            "description": "Kimi K3 verneint als einziges Modell einen Aufwendungsersatzanspruch des M gegen S für den Pkw-Totalschaden und die Brille mit der Begründung, § 670 BGB erfasse nur Aufwendungen, nicht Schäden. Das widerspricht der gefestigten BAG-Rechtsprechung zum Eigenschadenersatz bei betrieblich veranlasster Tätigkeit und führt zu einem im Kern falschen Ergebnis (M bleibt auf 3.750 € sitzen).",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Rückgriff des S",
+            "description": "Statt § 6 Abs. 1 EFZG wird § 116 Abs. 2 SGB X herangezogen – falsche Anspruchsgrundlage für den Arbeitgeberregress wegen Entgeltfortzahlung.",
+            "classification": "manko",
+            "severity": "high",
+            "humanCorrected": false
+          },
+          {
+            "topic": "§ 619a BGB",
+            "description": "Nicht genannt; die Beweislastumkehr wird fälschlich aus den Grundsätzen der beschränkten Arbeitnehmerhaftung/§ 242 BGB hergeleitet.",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Brille / § 104 SGB VII",
+            "description": "Die Sperrwirkung für den Brillenschaden als fingierter Personenschaden (§ 8 Abs. 3 SGB VII) wird nicht erkannt; stattdessen unsichere Zitate (§ 26 Abs. 3 SGB VII, § 110 SGB VII statt § 116 SGB X).",
+            "classification": "manko",
+            "severity": "medium",
+            "humanCorrected": false
+          },
+          {
+            "topic": "Haftungsquote und Drittschaden",
+            "description": "50:50-Quote und die volle Haftung gegenüber S als außenstehendem Ladungseigentümer werden sauber herausgearbeitet – hier fachlich stark.",
+            "classification": "stylistic",
+            "severity": "low",
+            "humanCorrected": false
+          }
+        ]
+      }
+    ],
+    "order": 2
+  }
+]
