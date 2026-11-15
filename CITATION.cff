@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Bitte zitieren Sie den Datensatz wie folgt."
+type: dataset
+title: "LLM-Vergleich für juristische Aufgaben: Pilotstudie Verkehrsrecht"
+authors:
+  - name: "Legal Data Technology GmbH"
+    website: "https://legaldata.tech"
+    email: "info@legaldata.tech"
+abstract: >-
+  Fünf Sprachmodelle bearbeiten drei Mandatskonstellationen aus dem deutschen Verkehrsrecht.
+  Jede Antwort wird von einem Richter-Modell gegen eine juristische Musterlösung mit
+  Prüfpunkte-Checkliste bewertet und von einem Juristen gegengeprüft. Herausgegeben von der
+  Legal Data Technology GmbH, Hersteller der Legal-Tech-Plattform DEPLAW.
+url: "https://legaldata.tech/ressourcen/llm-vergleich/verkehrsrecht"
+repository-code: "https://github.com/deplaw/legal-llm-vergleich"
+license: CC-BY-4.0
+date-released: 2026-11-15
+keywords:
+  - legal tech
+  - large language models
+  - LLM evaluation
+  - LLM-as-a-judge
+  - German law
+  - Verkehrsrecht
+  - DEPLAW
