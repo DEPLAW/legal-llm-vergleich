@@ -48,6 +48,8 @@ Score 0 bis 100, Bewertung gegen die Musterlösung, nach Juristen-Review.
 | `data/sachverhalte-und-musterloesungen/` | Sachverhalt und Musterlösung je Fall (Markdown) |
 | `data/modellantworten/` | die vollständigen Antworten aller Modelle (Markdown) |
 
+Derselbe Datensatz liegt auf Hugging Face: [DEPLAW/legal-llm-vergleich](https://huggingface.co/datasets/DEPLAW/legal-llm-vergleich).
+
 ## Zitieren
 
 Legal Data Technology GmbH (2026): *LLM-Vergleich für juristische Aufgaben: Pilotstudie Verkehrsrecht.*
